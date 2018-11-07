@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Что нужно сделать</title>
+
+  <link rel="stylesheet" type="text/css"
+  href="style/style.css"/>
+</head>
+
+<body>
+
+<section class="container">
+  
+  <h1>Чтобы ничего не забыть:</h1>
+  
+  <div class="new-task-container box">
+  
+  <label for="new-task">Добавить задачу</label>
+  <textarea type="text" id="new-task" placeholder="Напишите текст" rows="5px"> </textarea>
+  <input type="date" class="form-control" id="date" name="date" placeholder="Дата" required>
+
+    <button id="addTask">Добавить</button>
+  
+  </div>
+  
+  <div class="todo-list box">
+  
+    <h2>Список задач на сегодня</h2>
+    <ul>
+  
+    </ul>
+  
+  </div>
+  
+  <div class="complete-list box">
+    
+    <h2>Выполненные</h2>
+    <ul>
+
+    </ul>
+    
+    
+  </div>
+  
+  
+</section>
+
+  <script src="js/script.js"> </script>
+</body>
+
+</html>
